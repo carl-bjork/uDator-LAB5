@@ -11,6 +11,7 @@
 #include<iostream>
 class Complex {
 public:
+    
     Complex(); //Prototype. You should define this constructor.
     Complex(double re, double im); //Prototype. You should define this constructor.
     ~Complex(); //Prototype. You should define this destructor.
