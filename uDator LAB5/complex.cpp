@@ -27,7 +27,7 @@ Complex::Complex(double re, double im) {
 
 Complex::~Complex(){
     
-//    skräp
+    //Ska man ens använda den här?
     
 }
 
