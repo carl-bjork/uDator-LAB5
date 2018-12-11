@@ -14,7 +14,42 @@
 using namespace std;
 
 
-double complex() {
-    cout << "test" << endl; 
-    return 0; 
+Complex::Complex () {
+    
+    
+    
+}
+
+
+Complex::Complex(double re, double im) {
+    
+    
+}
+
+Complex::~Complex(){
+    
+    
+}
+
+
+double Complex::getReal(void) { //get the real part of the complex number
+    
+    
+    return 0;
+}
+
+double Complex::getImaginary(void) { //get the Imaginary part of the complex number
+    
+    
+    return 0;
+}
+
+void Complex::setReal(double re) { //set the real part of the complex number
+    
+    
+}
+
+void Complex::setImaginary(double im) { //set the Imaginary part of the
+    
+    
 }
