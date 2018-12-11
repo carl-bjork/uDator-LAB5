@@ -11,49 +11,11 @@
 #include<iostream>
 
 using namespace std;
-int meme = 0;
+
 
 Complex::Complex () {
     
-    if (meme==0) {
-        cout << "I wanna be Tracer" << endl;
-        meme++;
-    }
-    else if (meme == 1) {
-        cout << "Im already Tracer" << endl;
-        meme++;
-    }
-    else if (meme == 2) {
-        cout << "What about Widowmaker?" << endl;
-        meme++;
-    }
-    else if (meme == 3) {
-        cout << "Im already Widowmaker..." << endl;
-        meme++;
-    }
-    else if (meme == 4) {
-        cout << "Ill be Bastion?" << endl;
-        meme++;
-    }
-    else if (meme == 5) {
-        cout << "Nerf Bastion >:C" << endl;
-        meme++;
-    }
-    else if (meme == 6) {
-        cout << "You're right, so Winston." << endl;
-        meme++;
-    }
-    else if (meme == 7) {
-        cout << "I wanna be Winston" << endl;
-        meme++;
-    }
-    else{
-        cout << "dö" << endl;
-    }
-        
-    
-    
-    
+    cout << "BENIS ";
 }
 
 
@@ -72,13 +34,11 @@ Complex::~Complex(){
 
 double Complex::getReal(void) { //get the real part of the complex number
 
-    
     return real;
 }
 
 double Complex::getImaginary(void) { //get the Imaginary part of the complex number
 
-    
     return imag;
 }
 
@@ -133,7 +93,6 @@ Complex Complex::operator/(Complex& theComplex) {
 }
 
 int main () {
-    
     
     Complex a(5,5);
     Complex b(2,2);

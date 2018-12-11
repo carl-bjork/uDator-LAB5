@@ -5,7 +5,6 @@
 //  Created by Carl Björk on 2018-12-10.
 //  Copyright © 2018 Carl Björk. All rights reserved.
 //
-
 #ifndef _COMPLEXH
 #define _COMPLEXH
 #include<iostream>
