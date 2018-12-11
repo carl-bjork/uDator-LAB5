@@ -17,8 +17,7 @@ public:
     double getReal(void); //get the real part of the complex number
     double getImaginary(void); //get the Imaginary part of the complex number
     void setReal(double re);//set the real part of the complex number
-    void setImaginary(double im); //set the Imaginary part of the
-    //complex number
+    void setImaginary(double im); //set the Imaginary part of the complex number
     //overwrite the operators for complex numbers
     Complex operator+(Complex& theComplex);
     Complex operator-(Complex& theComplex);
