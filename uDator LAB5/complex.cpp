@@ -78,9 +78,6 @@ Complex Complex::operator/(Complex& theComplex) {
     temp.real = ((real * theComplex.real) + (imag * theComplex.imag)) * 1/((theComplex.real*theComplex.real)+(theComplex.imag*theComplex.imag));
     
     temp.imag = ((real * theComplex.imag) - (imag * theComplex.real)) * 1/((theComplex.real*theComplex.real)+(theComplex.imag*theComplex.imag));
-
-    //    temp.real = real / theComplex.real;
-//    temp.imag = imag / theComplex.imag;
     
     return temp;
     
