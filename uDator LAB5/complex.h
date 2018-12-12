@@ -13,7 +13,7 @@ public:
     
     Complex(); //Prototype. You should define this constructor.
     Complex(double re, double im); //Prototype. You should define this constructor.
-    ~Complex(); //Prototype. You should define this destructor.
+    ~Complex() {} //Prototype. You should define this destructor.
     double getReal(void); //get the real part of the complex number
     double getImaginary(void); //get the Imaginary part of the complex number
     void setReal(double re);//set the real part of the complex number

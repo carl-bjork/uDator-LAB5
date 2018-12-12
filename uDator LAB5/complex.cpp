@@ -13,10 +13,7 @@
 using namespace std;
 
 
-Complex::Complex () {
-    
-    cout << "BENIS ";
-}
+Complex::Complex () : real{0}, imag{0} {}
 
 
 Complex::Complex(double re, double im) {
@@ -24,13 +21,6 @@ Complex::Complex(double re, double im) {
     real = re;
     imag = im;
 }
-
-Complex::~Complex(){
-    
-    //Ska man ens använda den här?
-    
-}
-
 
 double Complex::getReal(void) { //get the real part of the complex number
 
@@ -75,8 +65,8 @@ Complex Complex::operator*(Complex& theComplex) {
     
     Complex temp;
     
-    temp.real = real * theComplex.real;
-    temp.imag = imag * theComplex.imag;
+    temp.real = real * theComplex.real - imag * theComplex.imag;
+    temp.imag = imag * theComplex.imag + real * theComplex.real;
     
     return temp;
     
@@ -85,33 +75,14 @@ Complex Complex::operator/(Complex& theComplex) {
     
     Complex temp;
     
-    temp.real = real / theComplex.real;
-    temp.imag = imag / theComplex.imag;
+    temp.real = ((real * theComplex.real) + (imag * theComplex.imag)) * 1/((theComplex.real*theComplex.real)+(theComplex.imag*theComplex.imag));
+    
+    temp.imag = ((real * theComplex.imag) - (imag * theComplex.real)) * 1/((theComplex.real*theComplex.real)+(theComplex.imag*theComplex.imag));
+
+    //    temp.real = real / theComplex.real;
+//    temp.imag = imag / theComplex.imag;
     
     return temp;
     
 }
 
-int main () {
-    
-    Complex a(5,5);
-    Complex b(2,2);
-    
-    Complex d;
-    Complex f;
-    Complex g;
-    Complex h;
-    
-    d = a+b;
-    f = a-b;
-    g = a*b;
-    h = a/b;
-    
-    cout << endl << endl;
-    cout << "Addition. " << d.getReal() << "+" << d.getImaginary() << "i" << endl;
-    cout << "Subtraktion: " <<  f.getReal() << "+" << f.getImaginary() << "i" << endl;
-    cout << "Multiplikation: " << g.getReal() << "+" << g.getImaginary() << "i" << endl;
-    cout << "Division: " << h.getReal() << "+" << h.getImaginary() << "i" << endl;
-    
-    return 0;
-}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C0852B9121BE685500A9B9D9 /* complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0852B9021BE685500A9B9D9 /* complex.cpp */; };
+		C0E57DAA21C1396A00B703DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0E57DA921C1396900B703DA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		C0852B8521BE64A200A9B9D9 /* uDator LAB5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "uDator LAB5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0852B8F21BE674600A9B9D9 /* complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = complex.h; sourceTree = "<group>"; };
 		C0852B9021BE685500A9B9D9 /* complex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = complex.cpp; sourceTree = "<group>"; };
+		C0E57DA921C1396900B703DA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				C0852B9021BE685500A9B9D9 /* complex.cpp */,
+				C0E57DA921C1396900B703DA /* main.cpp */,
 				C0852B8F21BE674600A9B9D9 /* complex.h */,
 			);
 			path = "uDator LAB5";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E57DAA21C1396A00B703DA /* main.cpp in Sources */,
 				C0852B9121BE685500A9B9D9 /* complex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
