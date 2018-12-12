@@ -22,12 +22,12 @@ Complex::Complex(double re, double im) {
     imag = im;
 }
 
-double Complex::getReal(void) { //get the real part of the complex number
+double Complex::getReal() { //get the real part of the complex number
 
     return real;
 }
 
-double Complex::getImaginary(void) { //get the Imaginary part of the complex number
+double Complex::getImaginary() { //get the Imaginary part of the complex number
 
     return imag;
 }
